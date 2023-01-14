@@ -32,4 +32,10 @@ describe('Funcionalidade pré-cadastro', () => {
 
     });
 
+    it.only('pre-cadastro custom commands',() => {
+        let emailFaker1 = faker.internet.email()
+        cy.preCadastro(emailFaker1, 'senha!#@forte', 'Rebeca', 'Beltrami')
+
+    })
+
 })
