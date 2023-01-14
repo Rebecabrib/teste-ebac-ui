@@ -12,7 +12,7 @@ beforeEach(() => {
 });
 
 it.only('Deve fazer cadastro de faturamento com sucesso',()=>{
-enderecoPage.editarEnderecoFaturamento()
+enderecoPage.editarEnderecoEntrega('nome','sobrenome','company','Brasil','rua1','10', 'São Paulo', 'São Paulo', '11111111' )
 cy.get('.woocommerce-message').should('contain', 'Endereço alterado com sucesso.')
 
 })
