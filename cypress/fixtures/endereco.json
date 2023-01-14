@@ -1,0 +1,24 @@
+[
+    {
+        "nome":"lucia",
+        "sobrenome": "lucinda",
+        "company":"lucia lucinda",
+        "pais":"Brasil",
+        "endereco":"rua da lucinda",
+        "numero":"14",
+        "cidade":"São Paulo",
+        "estado":"São Paulo",
+        "cep":"1242341"
+    },
+    {
+        "nome":"sheilo",
+        "sobrenome": "sheilindo",
+        "company":"sheilindo sheilo",
+        "pais":"Brasil",
+        "endereco":"stroopwaffle",
+        "numero":"14",
+        "cidade":"Sorocaba",
+        "estado":"São Paulo",
+        "cep":"04746112"
+    }
+]
